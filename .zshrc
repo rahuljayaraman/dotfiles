@@ -46,3 +46,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$PATH:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/rahul/.rvm/bin
+
+source ~/.nvm/nvm.sh
+nvm use 0.10
