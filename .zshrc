@@ -10,6 +10,8 @@ ZSH_THEME="gallifrey"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias cn="cd ~/Documents/source"
+alias gs="git status"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -45,7 +47,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/rahul/.rvm/bin
+export PATH=$PATH:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/rahul/.rvm/bin:/usr/local/opt/mysql55/bin
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre
 
 source ~/.nvm/nvm.sh
 nvm use 0.10
